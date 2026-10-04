@@ -1,7 +1,7 @@
 # Hi, I'm Jonathan Chong 👋
 
-**MSDS Candidate | ML Builder** · San Francisco, CA
-M.S. Data Science (4.0 GPA) · B.S. Chemistry · AWS AI Practitioner · Active in SF Hackathon Scene
+**MSDS | AI Builder** · San Francisco, CA
+M.S. Data Science · B.S. Chemistry · AWS AI Practitioner
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jjschong-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/jjschong)
 
@@ -9,7 +9,7 @@ M.S. Data Science (4.0 GPA) · B.S. Chemistry · AWS AI Practitioner · Active i
 
 ## About Me
 
-I'm finishing an M.S. in Data Science (Eastern University, 4.0 GPA, expected Summer 2026) and available now for DS/ML/engineering roles in the SF Bay Area. My background spans Python ML pipelines, cloud data tools (AWS Textract + Lambda), full-stack agentic apps, and physical AI — with hands-on hackathon experience across robotics and 3D/spatial AI.
+I'm hooked on AI building, learning, and networking.  Python since 2019, Data Science since 2024, AI-coding for a year.  I'm available for AI/DS/ML roles in the SF Bay Area or remote. My background spans Python ML pipelines, cloud data tools (AWS), and building full-stack agentic apps like calendar.jchong.dev -- which scrapes dozens of bay area event calendars for an all-in-one no-fomo result!
 
 Previously ran a 21-year self-employed real estate business (7 units, end-to-end): financing, operations, contractor management, P&L. That sharpened the applied problem-solving that I now bring to data.
 
