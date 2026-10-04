@@ -27,6 +27,13 @@ Previously ran a 21-year self-employed real estate business (7 units, end-to-end
 
 ## Featured Projects
 
+### 🗓️ QuickCal — Bay Area Events Aggregator
+**[calendar.jchong.dev](https://calendar.jchong.dev)** · [MCP endpoint](https://calendar.jchong.dev/mcp) · *source private*
+Agentic event-discovery pipeline for the Bay Area: scheduled Python connectors (Eventbrite, Meetup, FunCheapSF, Luma, Ticketmaster, Google Calendar, plus Playwright-rendered venue sites) pull listings, score them against personal interest profiles, and archive every fetch to SQLite. Results publish as a fast static calendar site on Cloudflare Pages, alongside a read-only MCP server so AI agents can search the same events.
+`Python` `Playwright` `SQLite` `Cloudflare Pages` `MCP` `Agentic`
+
+---
+
 ### 🤖 PhysAI Robotics Hackathon 2026 (SoloTech)
 **[ACT Pouring Model](https://github.com/jjchong5/PhysAI-Hack2026-ACT-pouring-model)** · **[LeRobot SO-101 Fork](https://github.com/jjchong5/lerobot-SO101-PhysAIHackathon-SoloTech)**
 Trained an ACT (Action Chunking Transformer) model on a physical SO-101 robot arm for water-pouring tasks. Fixed Windows camera compatibility in the LeRobot training pipeline to enable local training on Windows hardware. Competed in the SoloTech category at PhysAI Hackathon, Feb 2026.
