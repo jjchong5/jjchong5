@@ -1,7 +1,7 @@
 # Hi, I'm Jonathan Chong 👋
 
-**MSDS | AI Builder** · San Francisco, CA
-M.S. Data Science · B.S. Chemistry · AWS AI Practitioner
+**AI Builder & Educator** · San Francisco, CA
+M.S. Data Science · B.S. Chemistry · AWS AI Practitioner · Real Estate
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jjschong-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/jjschong)
 
@@ -17,11 +17,13 @@ Previously ran a 21-year self-employed real estate business (7 units, end-to-end
 
 ## Tech Stack
 
-**Languages:** Python · R · SQL
+**Claude Code & Codex in VSCode**
+**MCP and A2A**
+**Languages (pre-AI)** Python · R · SQL
 **ML/Data:** TensorFlow/Keras · Scikit-learn · PCA · Pandas · Jupyter
 **Cloud/Infra:** AWS Lambda · AWS Textract · Supabase
 **Web:** React · JavaScript
-**Tools:** Tableau · Git · GitHub Actions · Playwright
+**Tools:** Tableau · Git · GitHub Actions · FireCrawl, x402
 
 ---
 
