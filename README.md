@@ -44,7 +44,7 @@ Trained an ACT (Action Chunking Transformer) model on a physical SO-101 robot ar
 ---
 
 ### 🎬 LUMIS — AI Spatial Cinema (OpenWorld Hackathon · Runner-Up)
-**[LUMIS-3d-spatial-filmmaker](https://github.com/jjchong5/LUMIS-3d-spatial-filmmaker)** · [Live Demo](https://filmverse-eight.vercel.app/)
+**[Live Demo](https://filmverse-eight.vercel.app/)**
 Browser-based AI filmmaking tool: build, direct, and review 3D scenes with natural language. Built with Three.js; characters have persistent memory, personality, and autonomous behavior. Team of 3; placed runner-up in multiple categories.
 
 My contributions: architected the core LLM/API bridge to OpenRouter with Claude failover; integrated 3D character assets via Meshy; refined character interaction logic and UX.
@@ -77,7 +77,7 @@ Full-stack web app aggregating SF tech events with real-time data and a clean UI
 
 **AWS Certified AI Practitioner** — Amazon Web Services *(2026)*
 
-**M.S. Data Science** — Eastern University *(4.0 GPA, expected Summer 2026 — available now)*
+**M.S. Data Science** — Eastern University *(4.0 GPA)*
 Keras · TF · Sklearn · SQL · R · Tableau · Jupyter
 
 **B.S. Chemistry** — George Fox University
