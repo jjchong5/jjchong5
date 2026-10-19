@@ -1,111 +1,40 @@
-# Hi, I'm Jonathan Chong 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Jonathan Chong, AI Builder and Educator, San Francisco" src="assets/header-light.svg" width="100%">
+</picture>
 
-**AI Builder & Educator** · San Francisco, CA
-M.S. Data Science · B.S. Chemistry · AWS AI Practitioner · Real Estate
+<p>
+  <a href="https://linkedin.com/in/jjschong"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-jjschong-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://whatsupin.ai"><img alt="whatsupin.ai" src="https://img.shields.io/badge/live-whatsupin.ai-f97316?style=flat-square"></a>
+  <a href="https://huggingface.co/jjschong"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-jjschong-FFD21E?style=flat-square&logo=huggingface&logoColor=black"></a>
+  <a href="mailto:jjchong@msn.com"><img alt="Email" src="https://img.shields.io/badge/email-jjchong%40msn.com-555?style=flat-square"></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jjschong-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/jjschong)
+I build AI systems that run unattended: scheduled data pipelines, LLM research agents and MCP
+servers, deployed and monitored, not left as prototypes. I have an M.S. in Data Science
+(4.0) and a B.S. in Chemistry, and before data science I ran my own real estate business for
+21 years. **Open to AI, ML and data roles in the SF Bay Area or remote, and to contract work.**
 
----
+## What's running
 
-## About Me
+| | Project | Proof |
+|---|---|---|
+| 🗓️ | **[What's Up In](https://whatsupin.ai)**: free event calendars for 57 cities, plus a public MCP server for AI assistants | ~440,000 upcoming events from 1,500+ sources · [case study](https://github.com/jjchong5/whatsupin) |
+| 📈 | **[Kalshi research scanner](https://github.com/jjchong5/kalshi-public)**: reads ~145,000 prediction markets, researches the strongest with an LLM and web search | Real-money trades on its findings: 55% won, +11.6% on capital deployed |
+| ⚽ | **[World Cup 2026 trading bot](https://github.com/jjchong5/worldcup-public)**: live Polymarket pipeline with order-book-aware fills | Ran through the tournament; write-up of what broke in production and why |
+| 💼 | **[AI job-search pipeline](https://github.com/jjchong5/jobs-public)**: scrape, tag and rank postings with Claude; Streamlit UI and MCP server | M.S. capstone · 566 real postings processed end to end |
 
-I'm hooked on AI building, learning, and networking.  Python since 2019, Data Science since 2024, AI-coding for a year.  I'm available for AI/DS/ML roles in the SF Bay Area or remote. My background spans Python ML pipelines, cloud data tools (AWS), and building full-stack agentic apps like calendar.jchong.dev -- which scrapes dozens of bay area event calendars for an all-in-one no-fomo result!
+## Hackathons and experiments
 
-Previously ran a 21-year self-employed real estate business (7 units, end-to-end): financing, operations, contractor management, P&L. That sharpened the applied problem-solving that I now bring to data.
+- **LUMIS, AI spatial cinema** · OpenWorld Hackathon runner-up · [live demo](https://filmverse-eight.vercel.app/) · built the LLM bridge with Claude failover and integrated the 3D characters
+- **PhysAI Robotics Hackathon 2026** · trained an ACT policy on a real SO-101 arm to pour water · [model](https://github.com/jjchong5/PhysAI-Hack2026-ACT-pouring-model) · [LeRobot fork](https://github.com/jjchong5/lerobot-SO101-PhysAIHackathon-SoloTech)
+- **GPT-style transformer from scratch** · BPE vs. character tokens, ROUGE-1 0.17 → 0.36 · [demo](https://huggingface.co/spaces/jjschong/GPT2testing-medicaldata)
+- **x402 pay-per-book library** · USDC micropayments over HTTP 402, built at Vibe Coding Nights #37 · [demo](https://vcn37-payment.onrender.com/)
 
----
+## Toolkit
 
-## Tech Stack
+**AI:** Claude Code, Codex, Claude API, MCP, A2A, LLM agents with web search, PyTorch, TensorFlow/Keras, scikit-learn<br>
+**Data and infra:** Python, SQL, R, SQLite, Pandas, Playwright, AWS (Lambda, Textract), Cloudflare Pages, GitHub Actions, launchd and Task Scheduler<br>
+**Web and analytics:** JavaScript, React, Three.js, Streamlit, Tableau
 
-**Claude Code & Codex in VSCode**
-**MCP and A2A**
-**Languages (pre-AI)** Python · R · SQL
-**ML/Data:** TensorFlow/Keras · Scikit-learn · PCA · Pandas · Jupyter
-**Cloud/Infra:** AWS Lambda · AWS Textract · Supabase
-**Web:** React · JavaScript
-**Tools:** Tableau · Git · GitHub Actions · FireCrawl, x402
-
----
-
-## Featured Projects
-
-### 🗓️ What's Up In — Free Event Calendars for Dozens of Cities
-**[whatsupin.ai](https://whatsupin.ai)** · **[case study](https://github.com/jjchong5/whatsupin)** · *engine source private*
-Scheduled Python pipelines pull event listings from many sources per city, de-duplicate them, and publish fast static calendar sites on Cloudflare Pages, plus a public MCP server so AI assistants can search the same events. Grew out of QuickCal ([calendar.jchong.dev](https://calendar.jchong.dev)), my original Bay Area aggregator.
-`Python` `Playwright` `SQLite` `Cloudflare Pages` `MCP`
-
----
-
-### 💼 AI Job-Search Pipeline
-**[jobs-public](https://github.com/jjchong5/jobs-public)** (sanitized public copy)
-Scrapes job postings, tags and ranks them with Claude (Haiku by default, escalating to Sonnet on low confidence), and serves them in a Streamlit UI with an MCP server. 566 real postings ingested and tagged end to end. Built as my M.S. capstone.
-`Python` `Claude API` `SQLite` `Streamlit` `MCP`
-
----
-
-### 📈 Kalshi Prediction-Market Scanner
-**[kalshi-public](https://github.com/jjchong5/kalshi-public)** (showcase; methods private)
-Scheduled pipeline that scans tens of thousands of open prediction markets, researches the best candidates with an LLM using web search, and reports mispricings.
-`Python` `Claude API` `SQLite`
-
----
-
-### ⚽ World Cup 2026 Trading Bot
-**[worldcup-public](https://github.com/jjchong5/worldcup-public)** (case study; strategy code private)
-Ran live on Polymarket during the tournament: market discovery, fill-realistic edge calculation against the live order book, position reconciliation, and failure alerting. The write-up covers the reliability lessons from going live.
-`Python` `Polymarket CLOB` `Backtesting`
-
----
-
-### 🧠 GPT-Style Transformer From Scratch
-**[GPT2-test-model](https://github.com/jjchong5/GPT2-test-model)** · **[Live demo](https://huggingface.co/spaces/jjschong/GPT2testing-medicaldata)**
-Decoder-only transformer built from scratch and trained on doctor–patient dialog, with character vs. BPE tokenization experiments (ROUGE-1 0.17 → 0.36), regularization and overfitting analysis, and KV-cache inference.
-`Python` `PyTorch` `NLP`
-
----
-
-### 💸 x402 Pay-Per-Book Library
-**[VCN37-payment](https://github.com/jjchong5/VCN37-payment)** · **[Live demo](https://vcn37-payment.onrender.com/)**
-HTTP 402 micropayments: a $0.01 USDC paywall (testnet) where a wallet signs an EIP-3009 authorization and the server settles on-chain before returning the book. Built at Vibe Coding Nights #37.
-`Node.js` `x402` `USDC` `Express`
-
----
-
-### 🤖 PhysAI Robotics Hackathon 2026 (SoloTech)
-**[ACT Pouring Model](https://github.com/jjchong5/PhysAI-Hack2026-ACT-pouring-model)** · **[LeRobot SO-101 Fork](https://github.com/jjchong5/lerobot-SO101-PhysAIHackathon-SoloTech)**
-Trained an ACT (Action Chunking Transformer) policy on a physical SO-101 robot arm for water pouring, from about 25 teleoperated episodes. Fixed Windows camera compatibility in the LeRobot training pipeline to enable local training. Competed in the SoloTech category at PhysAI Hackathon, Feb 2026.
-`Python` `LeRobot` `ACT` `Robotics`
-
----
-
-### 🎬 LUMIS — AI Spatial Cinema (OpenWorld Hackathon · Runner-Up)
-**[Live Demo](https://filmverse-eight.vercel.app/)**
-Browser-based AI filmmaking tool: build, direct, and review 3D scenes with natural language. Built with Three.js; characters have persistent memory, personality, and autonomous behavior. Team of 3; placed runner-up in multiple categories.
-My contributions: architected the core LLM/API bridge to OpenRouter with Claude failover; integrated 3D character assets via Meshy; refined character interaction logic and UX.
-`JavaScript` `Three.js` `OpenRouter` `Meshy` `WebXR`
-
----
-
-### ☁️ Textract Resume Pipeline
-**[textract-resume-lambda](https://github.com/jjchong5/textract-resume-lambda)**
-S3-triggered AWS Lambda that runs Textract on uploaded PDF resumes and writes name, email and skills to CSV.
-`Python` `AWS Lambda` `AWS Textract`
-
----
-
-## Certifications & Education
-
-**AWS Certified AI Practitioner** — Amazon Web Services *(2026)*
-
-**M.S. Data Science** — Eastern University *(4.0 GPA)*
-Keras · TF · Sklearn · SQL · R · Tableau · Jupyter
-
-**B.S. Chemistry** — George Fox University
-
----
-
-## Currently Looking For
-
-DS / ML / Data Engineering roles in the **SF Bay Area** (or remote).
-Open to internships, contracts, and project collaborations.
-→ [linkedin.com/in/jjschong](https://linkedin.com/in/jjschong) · jjchong@msn.com
+**AWS Certified AI Practitioner** (2026) · **M.S. Data Science**, Eastern University · **B.S. Chemistry**, George Fox University
