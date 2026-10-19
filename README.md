@@ -30,7 +30,7 @@ Previously ran a 21-year self-employed real estate business (7 units, end-to-end
 ## Featured Projects
 
 ### 🗓️ What's Up In — Free Event Calendars for Dozens of Cities
-**[whatsupin.ai](https://whatsupin.ai)** · *source private*
+**[whatsupin.ai](https://whatsupin.ai)** · **[case study](https://github.com/jjchong5/whatsupin)** · *engine source private*
 Scheduled Python pipelines pull event listings from many sources per city, de-duplicate them, and publish fast static calendar sites on Cloudflare Pages, plus a public MCP server so AI assistants can search the same events. Grew out of QuickCal ([calendar.jchong.dev](https://calendar.jchong.dev)), my original Bay Area aggregator.
 `Python` `Playwright` `SQLite` `Cloudflare Pages` `MCP`
 
@@ -44,7 +44,7 @@ Scrapes job postings, tags and ranks them with Claude (Haiku by default, escalat
 ---
 
 ### 📈 Kalshi Prediction-Market Scanner
-**[kalshi-edge-scanner](https://github.com/jjchong5/kalshi-edge-scanner)** (showcase; methods private)
+**[kalshi-public](https://github.com/jjchong5/kalshi-public)** (showcase; methods private)
 Scheduled pipeline that scans tens of thousands of open prediction markets, researches the best candidates with an LLM using web search, and reports mispricings.
 `Python` `Claude API` `SQLite`
 
