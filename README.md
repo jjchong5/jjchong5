@@ -7,7 +7,8 @@
   <a href="https://linkedin.com/in/jjschong"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-jjschong-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="https://whatsupin.ai"><img alt="whatsupin.ai" src="https://img.shields.io/badge/live-whatsupin.ai-f97316?style=flat-square"></a>
   <a href="https://huggingface.co/jjschong"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-jjschong-FFD21E?style=flat-square&logo=huggingface&logoColor=black"></a>
-  <a href="mailto:jjchong@msn.com"><img alt="Email" src="https://img.shields.io/badge/email-jjchong%40msn.com-555?style=flat-square"></a>
+  <a href="https://apify.com/tidyharvest"><img alt="Apify Store: tidyharvest" src="https://img.shields.io/badge/Apify%20Store-tidyharvest-97d700?style=flat-square"></a>
+  <a href="mailto:j@jchong.dev"><img alt="Email" src="https://img.shields.io/badge/email-j%40jchong.dev-555?style=flat-square"></a>
 </p>
 
 I build AI systems that run unattended: scheduled data pipelines, LLM research agents and MCP
@@ -19,9 +20,10 @@ servers, deployed and monitored, not left as prototypes. I have an M.S. in Data 
 
 | | Project | Proof |
 |---|---|---|
-| 🗓️ | **[What's Up In](https://whatsupin.ai)**: free event calendars for 57 cities, plus a public MCP server for AI assistants | ~440,000 upcoming events from 1,500+ sources · [case study](https://github.com/jjchong5/whatsupin) |
-| 📈 | **[Kalshi research scanner](https://github.com/jjchong5/kalshi-public)**: reads ~145,000 prediction markets, researches the strongest with an LLM and web search | Real-money trades on its findings: 55% won, +11.6% on capital deployed |
-| ⚽ | **[World Cup 2026 trading bot](https://github.com/jjchong5/worldcup-public)**: live Polymarket pipeline with order-book-aware fills | Ran through the tournament; write-up of what broke in production and why |
+| 🗓️ | **[What's Up In](https://whatsupin.ai)**: free event calendars for 57 cities, plus a public MCP server for AI assistants | ~440,000 upcoming events from 1,500+ sources · [case study](https://github.com/jjchong5/whatsupin-case-study) |
+| 🧰 | **[TidyHarvest on the Apify Store](https://apify.com/tidyharvest)**: pay-per-result web data tools (Google Maps, Meta and Google ad libraries, events, jobs, website contacts) | 45 public tools published since Oct 2026, several built to beat the category leader on measured quality and cost; some also feed What's Up In |
+| 📈 | **Kalshi research scanner** ([case study](https://github.com/jjchong5/kalshi-scanner-case-study)): reads ~145,000 prediction markets, researches the strongest with an LLM and web search | Real-money trades on its findings: 55% won, +11.6% on capital deployed |
+| ⚽ | **World Cup 2026 trading bot** ([case study](https://github.com/jjchong5/worldcup-bot-case-study)): ELO-based match models vs. Polymarket odds, order-book-aware fills | Real money, live through the tournament: +42.8% on bankroll over 43 resolved trades. One late winner supplied most of it, so read it as a good run, not proof of edge |
 | 💼 | **[AI job-search pipeline](https://github.com/jjchong5/jobs-public)**: scrape, tag and rank postings with Claude; Streamlit UI and MCP server | M.S. capstone · 566 real postings processed end to end |
 
 ## Hackathons and experiments
