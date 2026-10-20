@@ -8,7 +8,7 @@
   <a href="https://whatsupin.ai"><img alt="whatsupin.ai" src="https://img.shields.io/badge/live-whatsupin.ai-f97316?style=flat-square"></a>
   <a href="https://huggingface.co/jjschong"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-jjschong-FFD21E?style=flat-square&logo=huggingface&logoColor=black"></a>
   <a href="https://apify.com/tidyharvest"><img alt="Apify Store: tidyharvest" src="https://img.shields.io/badge/Apify%20Store-tidyharvest-97d700?style=flat-square"></a>
-  <a href="mailto:j@jchong.dev"><img alt="Email" src="https://img.shields.io/badge/email-j%40jchong.dev-555?style=flat-square"></a>
+  <a href="mailto:jon@jchong.dev"><img alt="Email" src="https://img.shields.io/badge/email-jon%40jchong.dev-555?style=flat-square"></a>
 </p>
 
 I build AI systems that run unattended: scheduled data pipelines, LLM research agents and MCP
